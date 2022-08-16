@@ -1,0 +1,156 @@
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.location-container{
+  background-image: url(https://imagenes.20minutos.es/files/gallery_desktop_default_content/uploads/imagenes/2021/06/17/una-rick-grieta-en-el-tiempo.jpeg);
+  position: inherit;
+  width: 100vw;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction:column;
+  align-content: space-between;
+  z-index: 3100;
+}
+.location-container span{
+  color: #fff;
+  font-size: 2rem;
+}
+.title-header-search{
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 200px;
+    align-content: center;
+    align-items: center;
+  z-index: -1;
+}
+.resident-info__card{
+  margin: 16px;
+  margin-top: 50px;
+  display: inline-block;
+  position: relative;
+  width: 90%;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.resident-info__image {
+  width: 100%;
+  top:30px;
+  left:-15px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: -30px;
+  border-radius: 6px;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.resident-info__image-img{
+  width: 100%;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.resident-info__content{
+  padding: 30px;
+}
+.resident-info__footer{
+  margin-top: 15px;
+}
+.resident-info__footer div{
+  display: inline-block;
+}
+.resident-info__footer-image{
+  color: #888;
+  position: relati;
+  bottom: 15px;
+  left: 15px;
+}
+.resident-info__footer-image img {
+  width: 50px;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+.resident-info__footer-episodes{
+  line-height: 30px;
+  position: absolute;
+  left: 80px;
+  bottom: 25px;
+  font-size:1.2rem;
+}
+.search-container{
+  height: 120px;
+  width: 100%;
+  position: absolute;
+}
+.header{
+  display: flex;
+}
+.logo-image{
+  z-index: 100;
+  height: 70px;
+  filter: grayscale(100%);
+  opacity: 1;
+  margin: 15px auto;
+}
+.search-content{
+  display: flex;
+  width: 100vw;
+}
+.search-wrap input{
+  outline: none;
+  border: 0;
+  color: #8b7d77;
+}
+.search-wrap .search-box{
+  position: relative;
+  width: 350px;
+  height:60px;
+}
+.search-wrap .search-box input{
+  height: 30px;
+  position: absolute;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+.search-wrap .search-box button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #699F92;
+  cursor: pointer;
+  border: 0;
+}
+.search-wrap .search-box button:hover{
+	background: #2471d7;	
+}
+.search-wrap .search-box .fas{
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 20px;
+}
+.resident-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(n, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding-top: 2em;
+}
