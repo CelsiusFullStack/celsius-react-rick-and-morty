@@ -21,7 +21,7 @@ box-sizing: border-box;
   color: #fff;
   font-size: 2rem;
 }
-.title-header-search{
+.title-location-header{
     top: 140px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,17 @@ box-sizing: border-box;
     height: 200px;
     align-content: center;
     align-items: center;
-  z-index: -1;
+
+}
+.title-location-header span{
+  font-family: Console  ;
+  color: #8F0502;
+  font-weight: 600;
+  font-size:3em;
+  padding-top:8px;
+  padding-bottom: 8px;
+
+
 }
 .resident-info__card{
   margin: 16px;
