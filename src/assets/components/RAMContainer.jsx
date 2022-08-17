@@ -16,7 +16,7 @@ useEffect(() => {
 useEffect(() => {
     if(location){
         getLocation(location).then((res) =>{
-        setList(res.data.residents)
+        setList(res.residents)
         })
     }
 }, [location])
