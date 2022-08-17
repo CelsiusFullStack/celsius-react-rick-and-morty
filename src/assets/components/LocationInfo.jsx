@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import getLocation from "../customHooks//getLocation"
+import getLocation from "../customHooks/getLocation"
 const LocationInfo = ({location}) => {
 const [name, setName] = useState()
 const [type, setType] =useState()
@@ -8,7 +8,6 @@ const [resident, setResident] = useState()
 useEffect(() =>{
     if(location){ 
         getLocation(location).then((promise) => {
-            alert(promise.data)
         setName(promise?.data.name);
         setType(promise?.data.image);
         setDimension(promise?.data.status);

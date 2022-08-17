@@ -8,9 +8,8 @@ const RAMContainer = () =>{
 const [location, setLocation] = useState()
 const [list, setList] = useState([])
 useEffect(() => {
-    let random = parseInt(Math.floor(Math.random() * 126)+1)
-    getLocation(random).then((res) => {
-        setList(res.residents)
+    getLocation(parseInt(Math.floor(Math.random() * 126))).then((res) => {
+        setList(res.residents);
      })
 },[])
 
@@ -21,8 +20,7 @@ useEffect(() => {
         })
     }
 }, [location])
-const handleSearch = (info) =>{setLocation(`?name=` + info)}
-
+const handleSearch = (info) =>{setLocation(info)}
     return(
         <div>
             <SearchContainer handleSearch={handleSearch}/>

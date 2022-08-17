@@ -6,7 +6,7 @@ const [location, setLocation] = useState('')
         <div className='search-wrap'>
             <div className='search-box'>
             <input type='text' placeholder='Location  Rick and Morty Search...' onChange={(e) => setLocation(e.target.value)}/>
-            <button onClick={() => handleSearch(location)}><i className="fas fa-search"></i></button>
+            <button onClick={() => handleSearch(location)}><i className="fa fa-search"></i></button>
             </div>
         </div>
     )
