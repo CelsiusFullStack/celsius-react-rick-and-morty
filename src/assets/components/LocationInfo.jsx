@@ -12,7 +12,6 @@ useEffect(() =>{
         setName(locationHead.name);
         setType(locationHead.type);
         setDimension(locationHead.dimension);
-        //alert(name +' '+ type +' '+dimension);
     })
     }}, [location])
 return(
