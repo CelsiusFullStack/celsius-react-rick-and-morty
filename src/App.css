@@ -33,15 +33,18 @@ box-sizing: border-box;
 }
 
 .title-location-header span{
-  font: 400 2em/1 "Roboto", sans-serif;
+  font: 300 2em/1 "Roboto", sans-serif;
   letter-spacing: 0;
-  padding: .25em 0 .325em;
+  padding: .18em 0 .26em;
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255,255,255,.5);
-  background: url(https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/17303483/17303483-1629225969321-90ade9b86b3c4.jpg) repeat-y;
+
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: -1px -1px 0px rgb(225, 87, 7),
+  2px 2px 0px rgb(2, 0, 3),
+  4px 4px 0px rgb(151, 161, 161);
 }
 @keyframes aitf {
 	0% { background-position: 0% 50%; }
