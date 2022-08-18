@@ -14,10 +14,11 @@ useEffect(() =>{
     })
     }}, [location])
 return(
-    <div className="title-location-header">
-        <span>{name}</span>
-        <span>{type}</span>
-        <span>{dimension}</span>
+    <div className="title-location-header ">
+        <span>Name: {name}</span>
+        <span>Type: {type}</span>
+        <span>Dimension: {dimension}</span>
+
     </div>
 )
 }

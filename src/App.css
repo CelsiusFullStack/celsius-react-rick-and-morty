@@ -31,15 +31,21 @@ box-sizing: border-box;
     align-items: center;
 
 }
+
 .title-location-header span{
-  font-family: Console  ;
-  color: #8F0502;
-  font-weight: 600;
-  font-size:3em;
-  padding-top:8px;
-  padding-bottom: 8px;
-
-
+  font: 400 2em/1 "Roboto", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255,255,255,.5);
+  background: url(https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/17303483/17303483-1629225969321-90ade9b86b3c4.jpg) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
 }
 .resident-info__card{
   margin: 16px;
